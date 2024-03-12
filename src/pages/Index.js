@@ -23,7 +23,7 @@ const Index = () => (
 
       </p>
     </article>
-    <article className="post" id="index">
+    <article className="post" id="i1">
       <header>
         <div className="title">
           <h2><Link to="/">News</Link></h2>
@@ -32,9 +32,16 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <li> I am currently looking for a summer research internship.
-
-      </li>
+      <p>
+        <li>I am currently looking for a summer research internship.
+        </li>
+      </p>
+      <p>
+        <li>
+          Sep 18th, 2023, I went to University of Birmingham for
+          my rest 2 years of undergraduate study.
+        </li>
+      </p>
     </article>
   </Main>
 );
