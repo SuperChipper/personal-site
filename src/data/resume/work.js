@@ -23,6 +23,16 @@ const work = [
       'ROS rviz simulation with OpenCV pose estimation',
     ],
   },
+  {
+    name: 'Active Learning on Semantic Affinity Net',
+    position: 'Research',
+    startDate: '2022-12-30',
+    summary: 'Superviesed by Dr. Patrick Chan, This project is about the development of a new active learning algorithm for semantic affinity net. I am responsible for the development of the algorithm and the implementation of the algorithm in the semantic affinity net. The project is still ongoing.',
+    highlights: [
+      'Active learning based on pixel entropy(One-step expert correction on dataset)',
+      'Out perform the baseline by 2%.',
+    ],
+  },
 ];
 
 export default work;

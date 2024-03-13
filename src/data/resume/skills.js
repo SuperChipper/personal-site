@@ -15,11 +15,6 @@ const skills = [
     category: ['Web Development', 'Javascript'],
   },
   {
-    title: 'Next.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
     title: 'Bash',
     competency: 2,
     category: ['Tools', 'Languages'],

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import dayjs from 'dayjs';
 import Main from '../layouts/Main';
 
 const Index = () => (
@@ -32,13 +32,14 @@ const Index = () => (
           </p>
         </div>
       </header>
+      <h4>Present</h4>
       <p>
         <li>I am currently looking for a summer research internship.
         </li>
       </p>
       <p>
-        <li>
-          Sep 18th, 2023, I went to University of Birmingham for
+        <h4>{dayjs('2023-9-18').format('MMMM YYYY')}</h4>
+        <li>I went to University of Birmingham for
           my rest 2 years of undergraduate study.
         </li>
       </p>
