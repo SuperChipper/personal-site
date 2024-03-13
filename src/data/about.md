@@ -1,6 +1,6 @@
 # Intro
 
-I am a year 2 BEng student in University of Birmingham, studying Electronics and Electrical Engineering. I am currently interested in Reignforcement Learning, Computer Vision and Robotics. I am currently learning Lie Theory and   Algebra. I plan to apply for a summer research internship and pursue a Phd candidate in the future. I am expected to finish my BEng degree program in 2025.
+I am a year 2 BEng student in University of Birmingham, studying Electronics and Electrical Engineering. I am currently interested in Reinforcement Learning, Computer Vision and Robotics. I am currently learning Lie Theory and   Algebra. I plan to apply for a summer research internship and pursue a Phd candidate in the future. I am expected to finish my BEng degree program in 2025.
 
 # Some history
 
