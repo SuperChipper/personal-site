@@ -14,7 +14,7 @@
 const work = [
   {
     name: 'SCUT Robot Lab',
-    position: 'Remote control technical lead',
+    position: 'Remote control and Automation technical lead',
     startDate: '2022-12-30',
     endDate: '2024-7-31',
     summary: 'SCUT Robot Lab is a student organization in SCUT, which is dedicated to the development of robot technology. I am responsible for the development of the remote control system of the robot in Robocon 2023 and developed the automatic R2 robot in Robocon 2024, and I am one of the co-founders the lab.',
