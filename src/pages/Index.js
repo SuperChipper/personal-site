@@ -34,7 +34,13 @@ const Index = () => (
       </header>
       <h4>Present</h4>
       <p>
-        <li>I am currently looking for a summer research internship.
+        <li>I am currently looking for a PhD/Mphil oppotunity.
+        </li>
+      </p>
+
+      <p>
+        <h4>{dayjs('2024-7-13').format('MMMM YYYY')}</h4>
+        <li>Successfully won the first prize in National robotic competition Robocon 2024!
         </li>
       </p>
       <p>

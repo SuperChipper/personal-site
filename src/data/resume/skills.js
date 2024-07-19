@@ -57,7 +57,12 @@ const skills = [
   {
     title: 'ROS',
     competency: 2,
-    category: ['Robotics', 'C++'],
+    category: ['Robotics', 'C++', 'Python'],
+  },
+  {
+    title: 'ROS2',
+    competency: 4,
+    category: ['Robotics', 'C++', 'Python'],
   },
   {
     title: 'Jupyter',
