@@ -32,7 +32,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">&copy; MICHAEL D&apos;ANGELO <Link to="https://mldangelo.com">https://mldangelo.com</Link>.</p>
-      <p><script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0&cl=ffffff&w=a" /></p>
+      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0&cl=ffffff&w=a" />
     </section>
   </section>
 );
