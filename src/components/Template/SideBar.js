@@ -32,8 +32,10 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">&copy; MICHAEL D&apos;ANGELO <Link to="https://mldangelo.com">https://mldangelo.com</Link>.</p>
-      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0&cl=ffffff&w=a" />
     </section>
+    <body>
+      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0&cmo=d67979&cmn=45c687" />
+    </body>
   </section>
 );
 
