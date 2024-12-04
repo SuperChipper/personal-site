@@ -33,9 +33,9 @@ const SideBar = () => (
       <ContactIcons />
       <p className="copyright">&copy; MICHAEL D&apos;ANGELO <Link to="https://mldangelo.com">https://mldangelo.com</Link>.</p>
     </section>
-    <body>
-      <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0&cmo=d67979&cmn=45c687" />
-    </body>
+    <section id="map">
+      <a href="https://mapmyvisitors.com/web/1bwzw" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0" alt="Map showing visitor data" /></a>
+    </section>
   </section>
 );
 
