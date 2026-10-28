@@ -5,6 +5,34 @@
 ///
 
 /* Mini Post */
+.project-card {
+  scroll-margin-top: 6em;
+
+  header h3 {
+    font-size: 1em;
+    letter-spacing: 0.08em;
+  }
+
+  .project-meta {
+    font-size: 0.85em;
+    margin-bottom: 0;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .project-content {
+    padding: 1.5em;
+    overflow-wrap: anywhere;
+  }
+
+  .project-scope {
+    font-size: 0.85em;
+    border-top: 1px solid _palette(border);
+    padding-top: 1em;
+    margin-bottom: 0;
+  }
+}
+
 .cell-container {
   position: relative;
 

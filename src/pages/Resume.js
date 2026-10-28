@@ -29,7 +29,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
+          <h2><Link to="/resume">Resume</Link></h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
@@ -38,6 +38,13 @@ const Resume = () => (
           </div>
         </div>
       </header>
+      <p>
+        Agent application development and robotics software.
+        {' '}<Link to="/projects">See selected projects and contributions.</Link>
+      </p>
+      <ul className="actions">
+        <li><a href={`${process.env.PUBLIC_URL}/resume-zh.pdf`} className="button" download>Chinese resume (PDF)</a></li>
+      </ul>
       {Object.entries(sections).map(([name, Section]) => (
         <Section key={name} />
       ))}

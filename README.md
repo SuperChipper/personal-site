@@ -1,5 +1,25 @@
 # Personal Website
 
+## Zihan Lin — content update (2026-10-28)
+
+The home, About, Resume, and Projects pages now reflect Agent application development,
+robotics software, and image reconstruction. QQ Agent is the featured project;
+its descriptions distinguish application contributions from the existing DSH runtime.
+
+- Project content: `src/data/projects.js`
+- About content: `src/data/about.js` (bundled for a synchronous first render)
+- Resume content: `src/data/resume/`
+- Chinese resume download: `public/resume-zh.pdf` (synced from `../resumes/robotics_vision.pdf`)
+- Validation: `npm run lint`, `npm test -- --runInBand`, `npm run build`
+
+The PDF contains contact details intended for the public resume. When updating it,
+replace the public copy as well. Project start dates and the MSc award date have
+not been inferred. The original template documentation follows below.
+
+The legacy react-snap exporter captures browser DOM rather than React 18 SSR output.
+The client mounts with `createRoot`; exported HTML remains available before JavaScript
+loads and to crawlers, without attempting incompatible hydration.
+
 Welcome to my [personal website](https://mldangelo.com)! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) React-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
 
 ## 🚀 Features

@@ -13,14 +13,14 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Zihan Lin</h2>
-        <a href="zxl408@student.bham.ac.uk">zxl408@student.bham.ac.uk</a>
+        <a href="mailto:1625703948@qq.com">1625703948@qq.com</a>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Zihan. I am a <a href="https://www.birmingham.ac.uk/schools/engineering/eese">UoB EESE</a> undergraduate, currently in 2+2 program with SCUT Robotics
-        {' '}
+      <p>Hi, I&apos;m Zihan. I work on Agent applications, robotics software, and computer vision.
+        My background spans UCL, the University of Birmingham, and SCUT.
       </p>
       <ul className="actions">
         <li>
@@ -31,7 +31,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; MICHAEL D&apos;ANGELO <Link to="https://mldangelo.com">https://mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Zihan Lin. Template by <a href="https://mldangelo.com">Michael D&apos;Angelo</a>.</p>
     </section>
     <section id="map">
       <a href="https://mapmyvisitors.com/web/1bwzw" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0" alt="Map showing visitor data" /></a>

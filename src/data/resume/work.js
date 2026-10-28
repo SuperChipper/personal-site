@@ -1,37 +1,25 @@
-/**
- * @typedef {Object} Position
- * Conforms to https://jsonresume.org/schema/
- *
- * @property {string} name - Name of the company
- * @property {string} position - Position title
- * @property {string} url - Company website
- * @property {string} startDate - Start date of the position in YYYY-MM-DD format
- * @property {string|undefined} endDate - End date of the position in YYYY-MM-DD format.
- * If undefined, the position is still active.
- * @property {string|undefined} summary - html/markdown summary of the position
- * @property {string[]} highlights - plain text highlights of the position (bulleted list)
- */
 const work = [
   {
-    name: 'SCUT Robot Lab',
-    position: 'Remote control and Automation technical lead',
-    startDate: '2022-12-30',
-    endDate: '2024-7-31',
-    summary: 'SCUT Robot Lab is a student organization in SCUT, which is dedicated to the development of robot technology. I am responsible for the development of the remote control system of the robot in Robocon 2023 and developed the automatic R2 robot in Robocon 2024, and I am one of the co-founders the lab.',
+    name: '力迅科技',
+    position: 'Software Development Intern',
+    startDate: '2025-06-01',
+    endDate: '2025-09-01',
+    summary: 'Weather-message decoding and database development for a Guangdong emergency-warning service project.',
     highlights: [
-      'cc2652p zigbee module development(hardware and software)',
-      'ROS rviz simulation with OpenCV pose estimation(2023)',
-      'ROS2 automation development with Python(2024)',
+      'Implemented message decoding and database transactions using MyBatis-Flex, with XuguDB SQL for hourly, daily, and monthly aggregation.',
+      'Supported on-site deployment and resolved message-format parsing and database compatibility issues.',
     ],
   },
   {
-    name: 'Active Learning on Semantic Affinity Net',
-    position: 'Research',
-    startDate: '2022-12-30',
-    summary: 'Superviesed by Dr. Patrick Chan, This project is about the development of a new active learning algorithm for semantic affinity net. I am responsible for the development of the algorithm and the implementation of the algorithm in the semantic affinity net. The project is still ongoing.',
+    name: 'SCUT Robocon Team',
+    position: 'Upper-computer Software and Communication',
+    startDate: '2022-09-01',
+    endDate: '2024-07-01',
+    summary: 'Robot task control, serial communication, and system integration for competition robots.',
     highlights: [
-      'Active learning based on pixel entropy(One-step expert correction on dataset)',
-      'Out perform the baseline by 2%.',
+      'Implemented task state machines and a fixed-length serial protocol for movement, ball pickup, and placement.',
+      'Used position feedback and camera checks to coordinate task transitions, and supported hardware integration and fault diagnosis.',
+      'Team awards: first prize at Robocon 2024 and third prize at Robocon 2023.',
     ],
   },
 ];
