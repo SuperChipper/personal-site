@@ -24,6 +24,8 @@ jobs:
         node-version-file: '.nvmrc'
         cache: 'npm'
     - run: npm ci
+      env:
+        PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
     - name: Lint
       run: npm run lint
 
@@ -51,8 +53,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - name: Build and Statically Render
-      run: npm run predeploy
+      env:
+        PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+    - name: Build
+      run: npm run build
       env:
         NODE_ENV: development
     - name: Test
