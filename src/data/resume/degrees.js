@@ -1,7 +1,7 @@
 const degrees = [
   {
     school: 'University College London',
-    degree: 'MSc studies, Computer Graphics, Vision and Imaging — dissertation submitted',
+    degree: 'MSc Computer Graphics, Vision and Imaging — Distinction (average 77.46/100)',
     link: 'https://www.ucl.ac.uk/',
     year: 2026,
   },

@@ -13,7 +13,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Zihan Lin</h2>
-        <a href="mailto:1625703948@qq.com">1625703948@qq.com</a>
+        <a href="mailto:zzzhlin@gmail.com">zzzhlin@gmail.com</a>
       </header>
     </section>
 
@@ -31,10 +31,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Zihan Lin. Template by <a href="https://mldangelo.com">Michael D&apos;Angelo</a>.</p>
-    </section>
-    <section id="map">
-      <a href="https://mapmyvisitors.com/web/1bwzw" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=ORFxIedg7dTKhbfBoYhUHogrV5V11adS7q0BKXGAbM0" alt="Map showing visitor data" /></a>
+      <p className="copyright">&copy; Zihan Lin</p>
     </section>
   </section>
 );

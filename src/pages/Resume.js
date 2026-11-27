@@ -43,7 +43,7 @@ const Resume = () => (
         {' '}<Link to="/projects">See selected projects and contributions.</Link>
       </p>
       <ul className="actions">
-        <li><a href={`${process.env.PUBLIC_URL}/resume-zh.pdf`} className="button" download>Chinese resume (PDF)</a></li>
+        <li><a href={`${process.env.PUBLIC_URL}/resume-en.pdf`} className="button primary">Download resume (PDF)</a></li>
       </ul>
       {Object.entries(sections).map(([name, Section]) => (
         <Section key={name} />

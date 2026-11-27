@@ -9,12 +9,12 @@ const Skills = ({ skills, categories }) => (
       <p>Technologies and methods used in my projects.</p>
     </div>
     {categories.map(({ name }) => (
-      <div key={name}>
+      <div className="skill-group" key={name}>
         <h4>{name}</h4>
-        <ul>
-          {skills.filter((skill) => skill.category.includes(name)).map((skill) => (
-            <li key={skill.title}>{skill.title}</li>
-          ))}
+        <ul className="tags">
+          {skills.filter((skill) => skill.category.includes(name))
+            .flatMap((skill) => skill.title.split(' / '))
+            .map((item) => <li key={item}>{item}</li>)}
         </ul>
       </div>
     ))}
