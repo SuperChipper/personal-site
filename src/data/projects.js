@@ -32,7 +32,7 @@ const data = [
     links: [
       { label: 'GitHub', url: 'https://github.com/SuperChipper/dsh-dungeon-master' },
       { label: 'npm', url: 'https://www.npmjs.com/package/dsh-dungeon-master' },
-      { label: 'PuppetTV on Bilibili', url: 'https://www.bilibili.com/video/BV1is1pzWE45/' },
+      { label: 'Bilibili', url: 'https://www.bilibili.com/video/BV1Yks66AETC/' },
     ],
     media: [
       {
